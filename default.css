@@ -73,7 +73,7 @@ body{
 
  
 body{
-  background-image: url(),url();
+  background-image: url(gyouza.pmg),url(gyouza.png);
 background-repeat: no-repeat, no-repeat;
   background-size: 5% 5%, cover;
   background-color: lightgrey;
