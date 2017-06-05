@@ -94,10 +94,7 @@ background-repeat: no-repeat, no-repeat;
 }
 .skew-gradient{
   background-color: white;
-  background: linear-gradient(135deg
-  orangered   0%,
-  white       50%,
-  orange      100%);
+  background: linear-gradient(135deg orangered   0%,white  50%,orange  100%);
 }
 .button{
   display: block;
