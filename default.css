@@ -94,7 +94,7 @@ background-repeat: no-repeat, no-repeat;
 }
 .skew-gradient{
   background-color: white;
-  background: linear-gradient(135deg orangered   0%,white  50%,orange  100%);
+  background: linear-gradient(135deg,orangered   0%,white  50%,orange  100%);
 }
 .button{
   display: block;
@@ -147,14 +147,14 @@ background-repeat: no-repeat, no-repeat;
   transform : skewY(45deg);
 }
 .skew{
-  transform: skew(30deg, 45deg,);
+  transform: skew(30deg, 45deg);
 }
 .transform-oragin{
   transform-origin: 0% 0%;
   transform: rotate(30deg);
 }
 p.transition{
-  margin 10px;
+  margin: 10px;
 }
 p.transition a{
   background-color: mediumseagreen;
@@ -181,7 +181,7 @@ p.transition a{
   padding: 5px;
   transition:background-color 1s 0s, color 1s 1s;
 }
-p.transition a;hover{
+p.transition a:hover{
   background-color: gold;
   text-decoration: none;
   padding : 5px;
